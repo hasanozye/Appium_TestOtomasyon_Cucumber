@@ -1,0 +1,51 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-17T23:58:37.278Z",
+        "line": 5,
+        "name": "tc01 Add product to the list and process",
+        "description": "",
+        "id": "us001-payment-screen-test;tc01-add-product-to-the-list-and-process",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"io.appium.java_client.android.AndroidDriver.switchTo()\" because the return value of \"AppiumTest.utulities.Driver.get()\" is null\r\n\tat AppiumTest.StepDefinitions.A101StepDefinitions.a101_e_girilir(A101StepDefinitions.java:13)\r\n\tat ✽.a101 e girilir(file:///C:/Users/PC/IdeaProjects/A101_Appium_TestOtomasyon_Cucumber/src/test/resources/features/Android.feature:7)\r\n",
+              "duration": 55593878700,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "a101 e girilir",
+            "match": {
+              "location": "AppiumTest.StepDefinitions.A101StepDefinitions.a101_e_girilir()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@a101"
+          }
+        ]
+      }
+    ],
+    "name": "US001_Payment Screen Test",
+    "description": "",
+    "id": "us001-payment-screen-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Android.feature",
+    "tags": [
+      {
+        "name": "@a101",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

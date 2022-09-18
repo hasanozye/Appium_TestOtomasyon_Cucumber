@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="55.829">
+    <testcase classname="US001_Payment Screen Test" name="tc01 Add product to the list and process" time="55.657">
+        <failure message="Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.switchTo()&quot; because the return value of &quot;AppiumTest.utulities.Driver.get()&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given a101 e girilir........................................................failed
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.switchTo()" because the return value of "AppiumTest.utulities.Driver.get()" is null
+	at AppiumTest.StepDefinitions.A101StepDefinitions.a101_e_girilir(A101StepDefinitions.java:13)
+	at ✽.a101 e girilir(file:///C:/Users/PC/IdeaProjects/A101_Appium_TestOtomasyon_Cucumber/src/test/resources/features/Android.feature:7)
+]]></failure>
+    </testcase>
+</testsuite>
